@@ -59,10 +59,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     card.innerHTML = `
       <h4>${activity.name}</h4>
-      <p><strong>Instructor:</strong> ${activity.instructor}</p>
-      <p><strong>Day:</strong> ${activity.day}</p>
-      <p><strong>Time:</strong> ${activity.time}</p>
-      <p><strong>Location:</strong> ${activity.location}</p>
+      <p><strong>Description:</strong> ${activity.description}</p>
+      <p><strong>Schedule:</strong> ${activity.schedule}</p>
+      <p><strong>Max participants:</strong> ${activity.max_participants}</p>
       ${participantsList}
     `;
 
